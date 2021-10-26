@@ -16,9 +16,9 @@ const main = async () => {
 	await txn.wait()
 
 	// Mint another NFT.
-	txn = await nftContract.makeAnEpicNFT()
+	// txn = await nftContract.makeAnEpicNFT()
 	// Wait for it to be mined.
-	await txn.wait()
+	// await txn.wait()
 }
 
 // give an error if the above doesn't work, else run it and close the program
